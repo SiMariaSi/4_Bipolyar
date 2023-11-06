@@ -1,0 +1,116 @@
+body {
+    margin:0;
+    padding:0;
+    background-image: url("проект_3.png");
+    background-repeat: repeat;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    color:beige;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.Logo, .Top_menu{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.Logo h1{
+    vertical-align: middle;
+    color:aliceblue;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.Logo a {
+    color:beige;
+    text-decoration: none;
+    vertical-align: middle;
+
+}
+
+.Top_menu li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.Top_menu a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color:aliceblue;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.Top_menu a:hover {
+    color: #db2c1f;
+}
+
+.characters-wrap{
+    width: 400px;
+    height: 550px;
+    margin: 24px auto;
+    border-spacing: 100 px;
+    background: rgba(51, 50, 50, 0.95);
+    padding: 15px;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.characters-title a{
+    color:rgb(239, 227, 187);
+    text-decoration: none;
+    vertical-align: middle;
+
+}
+
+
+.characters-title a:hover{
+    color: rgba(175, 98, 67, 0.95);
+}
+
+.image-left{
+    height: 150px;
+    width: 150px;
+    margin-top: auto;
+}
+
+.image-left img{
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.image-right img{
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.image-right{
+    height: 150px;
+    width: 150px;
+    margin-top: auto;
+   margin-left: 100px;
+}
+
+.table1{
+    margin-left: 180px;
+   
+}
